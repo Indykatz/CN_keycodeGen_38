@@ -1,37 +1,59 @@
 /* The body */
 body {
-  font-family: Futura;
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 10px;
 }
 
 /* The header section */
 .headerBanner {
-  text-align: center;
   box-sizing: border-box;
-  padding: 20px;
-  margin-bottom: 5px;
-}
-
-h1 {
-  color: darkolivegreen;
-  font-size: 50px;
-  text-decoration: underline;
-}
-
-h2 {
-  font-size: 30px;
+  border: 1px solid black;
+  padding: 10px;
   text-align: center;
-  text-decoration: underline;
 }
 
-/* container */
+/* content container */
+
 .content {
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+ul {
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 10px;
   display: flex;
   flex-direction: row;
-  /* min-height: 100vh; */
+  flex-wrap: wrap;
+}
+
+li {
+  list-style: none;
+  flex-grow: 1;
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
   text-align: center;
 }
 
-/* pressed */
+/* footer */
+.myFooter {
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: small;
+}
+
+/* pressed
 .pressed {
   color: darkolivegreen;
   font-size: 30px;
@@ -48,7 +70,7 @@ h2 {
   box-sizing: border-box;
   padding: 20px;
   /* border: 1px solid darkolivegreen; */
-  align-content: center;
+/* align-content: center;
   flex-grow: 1;
   padding: 1px;
-}
+} */
