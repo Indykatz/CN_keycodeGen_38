@@ -10,5 +10,5 @@ window.addEventListener("keydown", (e) => {
   which.textContent = e.which;
   code.textContent = e.code;
 
-  textArea.textContent = `${e.key} was pressed`;
+  textArea.textContent = `"${e.key}" was pressed`;
 });
