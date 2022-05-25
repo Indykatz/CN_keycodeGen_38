@@ -4,35 +4,69 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+  />
     <title>Keycode Generator</title>
   </head>
   <body>
-    <!-- header banner -->
-    <div class="headerBanner">
-      <h1>Keycode Generator</h1>
+    <div class="container">
+      <!-- header banner -->
+      <div class="heading">
+        <div class="headingContent">
+          <h1>Keycode Generator</h1>
+          <h2>Code Nation Masters 38</h2>
+        </div>
+      </div>
+        <!-- number content -->
+        <div class="content" id="textArea">Press any key to continue</div>
+        <div class="content" id="center">
+            <div class="numDisplay">
+                <h4 id="displayNum">-</h4>
+            </div>
+            <div class="content" id="returnStr">- -</div>
+        <!-- unordered list -->
+        <div class="content" id="center">
+            <ul>
+          <li>
+            Key
+            <p id="key">-</p>
+          </li>
+          <li>
+            Which
+            <p id="which">-</p>
+          </li>
+          <li>
+            Code
+            <p id="code">-</p>
+          </li>
+        </ul>
+        </div>
     </div>
-    <!-- page content -->
-    <div class="content" id="textArea">Press any key to continue</div>
-      <!-- unordered list -->
-      <ul>
-        <li>
-          Key
-          <p id="key">-</p>
-        </li>
-        <li>
-          Which
-          <p id="which">-</p>
-        </li>
-        <li>
-          Code
-          <p id="code">-</p>
-        </li>
-      </ul>
+    </div>
+      </div>
     </div>
     <!-- Footer -->
-    <div class="myFooter">
-      Code Nation Masters 38 Keycode Generator | Katherine Ayers | Indykatz
+    <div class="foot">
+      Katherine Ayers | Indykatz
+      <nav class="flex-nav">
+        <ul>
+          <li class="social">
+            <a href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li class="social">
+            <a href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li class="social">
+            <a href="http://github.com/"><i class="fa fa-github"></i></a>
+          </li>
+          <li class="social">
+            <a href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+          </li>
+        </ul>
+      </nav>
     </div>
     <!-- JS script -->
     <script src="app.js"></script>
