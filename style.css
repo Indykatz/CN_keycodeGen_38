@@ -166,8 +166,7 @@ h4 {
 
 /* footer */
 .foot {
-  /* position: fixed; */
-  position: fixed;
+  position: relative;
   bottom: 0px;
   background-color: #2a5a97;
   padding: 10px;
