@@ -167,15 +167,13 @@ h4 {
 /* footer */
 .foot {
   /* position: fixed; */
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   background-color: #2a5a97;
   padding: 10px;
   text-align: center;
   margin-top: 10px;
   color: #94a4b3;
-  position: absolute;
-  bottom: 0;
   width: 100%;
 }
 
@@ -185,7 +183,6 @@ h4 {
   .flex-nav ul li {
     width: 50%;
   }
-
 
   /* social media items will be 25% */
   .flex-nav .social {
