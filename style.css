@@ -166,7 +166,9 @@ h4 {
 
 /* footer */
 .foot {
-  position: fixed;
+  /* position: fixed; */
+  position: absolute;
+  bottom: 0px;
   background-color: #2a5a97;
   padding: 10px;
   text-align: center;
@@ -183,6 +185,7 @@ h4 {
   .flex-nav ul li {
     width: 50%;
   }
+
   /* social media items will be 25% */
   .flex-nav .social {
     width: 25%;
