@@ -166,7 +166,7 @@ h4 {
 
 /* footer */
 .foot {
-  position: relative;
+  position: fixed;
   bottom: 0px;
   background-color: #2a5a97;
   padding: 10px;
@@ -176,29 +176,18 @@ h4 {
   width: 100%;
 }
 
-/* tablet and view for screens less than 1000px */
-@media all and (max-width: 1000px) {
-  /* unordered list items will be 50% */
-  .flex-nav ul li {
-    width: 50%;
-  }
-
-  /* social media items will be 25% */
-  .flex-nav .social {
-    width: 25%;
-  }
-}
 /* mobile and view for screens less than 500px */
 @media only screen and (max-width: 500px) {
-  /* all unordered list items will be 100% */
-  .flex-nav ul li {
-    width: 100%;
-  }
   .headingContent {
     font-size: 80%;
   }
 
   h2 {
     font-size: 80%;
+  }
+
+  .foot {
+    position: relative;
+    bottom: 0px;
   }
 }
